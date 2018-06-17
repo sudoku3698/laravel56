@@ -23,3 +23,7 @@ Route::get('/test',function(){
 Route::get('/test2',function(){
 	echo "Testing2";
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
