@@ -15,14 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/test',function(){
-	echo "Testing";
-});
 
-
-Route::get('/test2',function(){
-	echo "Testing2";
-});
 
 Auth::routes();
 
